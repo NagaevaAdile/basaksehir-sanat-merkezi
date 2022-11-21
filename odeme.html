@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Başakşehir</title>
+    <link rel="stylesheet" href="content/css/style.css">
+    <link rel="stylesheet" href="content/font/stylesheet.css">
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="anasayfa.html"><img src="content/img/logo.png" alt=""></a>
+            <label for="">
+                <span><img src="content/img/search.png" alt=""></span>
+                <input type="search" placeholder="Konser, Tiyatro, Festival...">
+            </label>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="#">Başkandan </a></li>
+                <li><a href="#">Etkinlikler</a></li>
+                <li><a href="#">Haber&Duyuru</a></li>
+            </ul>
+            <div>
+                <p><a href="#"><img src="content/img/login.png" alt=""></a></p>
+                <p><a href="#">Bilet Al</a></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="payment">
+        <div class="pay-wrap">
+
+            <div class="payment-left">
+                <ul class="sale-title">
+                    <li>Mustafa Ceceli̇ konser</li>
+                    <li>18 mart</li>
+                    <li>20:00</li>
+                    <li>BAHÇEŞEHİR KÜLTÜR SANAT MERKEZİ</li>
+                </ul>
+                <div>
+                    <div class="sale-list">
+                        <div class="sale-column sale-1column">1</div>
+                        <div class="sale-column sale-2column">d</div>
+                        <div class="sale-column sale-3column">27</div>
+                        <div class="input-soyad">Recep Bi̇ni̇ci̇</div>
+                        <div class="price-ticket">5,00₺</div>
+                    </div>
+                    <div class="sale-list">
+                        <div class="sale-column sale-1column">1</div>
+                        <div class="sale-column sale-2column">d</div>
+                        <div class="sale-column sale-3column">27</div>
+                        <div class="input-soyad">Recep Bi̇ni̇ci̇</div>
+                        <div class="price-ticket">5,00₺</div>
+                    </div>
+                    <div class="sale-list">
+                        <div class="sale-column sale-1column">1</div>
+                        <div class="sale-column sale-2column">d</div>
+                        <div class="sale-column sale-3column">27</div>
+                        <div class="input-soyad">Recep Bi̇ni̇ci̇</div>
+                        <div class="price-ticket">5,00₺</div>
+                    </div>
+                    <div class="sale-list">
+                        <div class="sale-column sale-1column">1</div>
+                        <div class="sale-column sale-2column">d</div>
+                        <div class="sale-column sale-3column">27</div>
+                        <div class="input-soyad">Recep Bi̇ni̇ci̇</div>
+                        <div class="price-ticket">5,00₺</div>
+                    </div>
+                </div>
+                <div class="pay-total">
+                    <div class="pay-top">toplam</div>
+                    <div class="total-price">200,00₺</div>
+                </div>
+            </div>
+
+            <div class="payment-right">
+                <div class="pay-right-info">
+                    <div class="bank-card">
+                        <img src="content/img/visa.png" alt="">
+                        <p>•••• •••• •••• 3294</p>
+                        <span>Recep Binice</span>
+                    </div>
+                    <div class="bank-carf-info">
+                        <p>i̇şlemi̇ni̇zi̇ tamamlamak i̇çi̇n</p>
+                        <h2>kalan süre</h2>
+                        <span>04:47</span>
+                    </div>
+                </div>
+                <form action="" method="post">
+                    <div class="pay-right-input">
+                        <div class="main-info-card">
+                            <label for="soyad">
+                                Adı Soyadı
+                                <input type="text" id="soyad" placeholder="Recep Bi̇ni̇ci̇" required pattern="^\S+ \S+$"
+                                    title="Ad Soyad">
+                            </label>
+                            <label for="kardnumerası">
+                                Kart Numarası
+                                <input type="text" id="kard-num" placeholder="1234   3924   2394   3294" required
+                                    maxlength="16" minlength="16" pattern="^\d+$" title="Sadece sayılar">
+                            </label>
+                        </div>
+
+                        <div class="extra-info-card">
+                            <label for="date">
+                                Son kullanma tari̇hi̇
+                                <div class="date-card">
+                                    <input type="text" class="bankDate" placeholder="02" required maxlength="2"
+                                        minlength="2" pattern="^\d+$" title="Sadece sayılar">
+                                    <input type="text" class="bankDate" placeholder="25" required maxlength="2"
+                                        pattern="^\d+$" title="Sadece sayılar">
+                                </div>
+                            </label>
+
+                            <label class="id-wrap" for="cvv">
+                                <span class="cvvInfo">CVV</span>
+                                <input id="cvv" type="text" placeholder="627" required maxlength="3" minlength="3"
+                                    pattern="^\d+$" title="Sadece sayılar">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="done-pay" style="margin-bottom: 1vw;">
+                        <label class="checkbox-wrap" for="checkbox">
+                            <input id="checkbox" type="checkbox" required>
+                            <span class="cheki cheki-white"></span>
+                            <p> Ön bilgilendirme formunu okudum, kabul ediyorum.</p>
+                        </label>
+                    </div>
+
+                    <ul class="pey-btn">
+                        <li><button> <a href="sale.html"> geri̇ dön</a></button></li>
+                        <li><button type="submit">ödeme yap</button></li>
+                    </ul>
+            </div>
+            </form>
+        </div>
+    </section>
+
+    <img src="content/img/allCol.png" alt="" class="col-odeme">
+
+    <footer class="col-foo">
+        <p>2022 © Başakşehir Belediyesi. Tüm hakları saklıdır.</p>
+    </footer>
+
+
+</body>
+
+</html>
